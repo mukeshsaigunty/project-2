@@ -1,0 +1,431 @@
+--html--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Analyst & AI Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p class="tagline">Data Analyst & AI Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
+                <p>I am a Data Analyst and AI Engineer with hands-on experience in Python, SQL, Excel, and Power BI, focused on transforming raw data into meaningful insights and intelligent solutions that support data-driven decision-making. My work emphasizes data cleaning, exploratory data analysis (EDA), statistical reasoning, and effective visualization to uncover trends, patterns, and opportunities.</p>
+                <p>Through real-world projects, I have worked with both structured and unstructured datasets, including large-scale web-scraped e-commerce data, relational databases, and computer vision outputs. I have designed analytical and AI-driven workflows that improve operational efficiency, built interactive dashboards for business reporting, and developed end-to-end solutions combining data collection, preprocessing, analysis, and model-driven insights.</p>
+                <p>I am particularly interested in applying analytics and AI to solve real-world business problems and continuously expanding my expertise in modern data and AI technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Data Manipulation</h3>
+                    <ul>
+                        <li>Python (Pandas, NumPy)</li>
+                        <li>SQL</li>
+                        <li>Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Visualization & BI</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Matplotlib</li>
+                        <li>Seaborn</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Engineering & AI</h3>
+                    <ul>
+                        <li>Web Scraping (BeautifulSoup)</li>
+                        <li>Database Design & Optimization</li>
+                        <li>Exploratory Data Analysis (EDA)</li>
+                        <li>Statistical Reasoning</li>
+                        <li>Machine Learning Concepts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail">
+                    <h3>E-commerce Data Analysis</h3>
+                    <p>Analyzed large-scale web-scraped e-commerce data to identify customer behavior patterns and sales trends.</p>
+                    <a href="project1-details.html" class="btn">Learn More</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail">
+                    <h3>Interactive Sales Dashboard</h3>
+                    <p>Developed an interactive Power BI dashboard for real-time sales reporting and performance monitoring.</p>
+                    <a href="project2-details.html" class="btn">Learn More</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="project3-thumbnail.jpg" alt="Project 3 Thumbnail">
+                    <h3>AI-Driven Customer Segmentation</h3>
+                    <p>Built an AI-driven workflow to segment customers based on their purchasing history and engagement.</p>
+                    <a href="project3-details.html" class="btn">Learn More</a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>This portfolio showcases my projects, technical capabilities, and problem-solving approach, reflecting my commitment to building reliable, insightful, and impactful data and AI solutions. I am always open to new opportunities and collaborations.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">linkedin.com/in/your-linkedin-profile</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/your-github-username" target="_blank">github.com/your-github-username</a></p>
+            </div>
+            <!-- You can add a contact form here if desired -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+--html--
+
+--css--
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+    --white-color: #ffffff;
+    --font-family: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: var(--white-color);
+    padding: 2rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: var(--dark-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+/* About Section */
+.about-section {
+    background-color: var(--white-color);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary-color);
+}
+
+.about-content p {
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: var(--light-color);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    text-align: center;
+}
+
+.skill-category {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    margin-bottom: 0.8rem;
+    color: var(--secondary-color);
+}
+
+/* Projects Section */
+.projects-section {
+    background-color: var(--white-color);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: var(--light-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.project-card p {
+    padding: 0 1.5rem;
+    color: var(--secondary-color);
+}
+
+.project-card .btn {
+    margin-bottom: 1.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: var(--light-color);
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-info a {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .profile-photo {
+        margin-bottom: 1.5rem;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .skills-grid, .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+--css--
+
+--js--
+document.addEventListener('DOMContentLoaded', function() {
+    // Smooth scrolling for navigation links
+    const navLinks = document.querySelectorAll('header nav ul li a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // You can add more JavaScript functionality here if needed,
+    // such as form validation, animations, or dynamic content loading.
+});
+--js--
